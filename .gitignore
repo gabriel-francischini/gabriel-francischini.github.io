@@ -1,0 +1,3 @@
+# É importante ignorar TUDO na pasta src, que é uma
+# pasta para arquivos brutos
+src/**
