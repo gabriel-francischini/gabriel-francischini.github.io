@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.corpo_principal {
+	width: 60%;
+	height: auto;
+	background-color: #FFF;
+	border-top-width: medium;
+	border-right-width: thick;
+	border-bottom-width: medium;
+	border-left-width: thick;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #F90;
+	border-right-color: #FC6;
+	border-bottom-color: #FC0;
+	border-left-color: #FC6;
+	margin-left: 20%;
+	position: relative;
+	padding-bottom: 200px;
+}
+
+.footer{
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+}
+
+.header{
+	background-color: #60F;
+	height: 200px;
+	width: 100%;
+	top: 0px;
+	
+}
+
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(img/food-bg.jpg);
+}
+
+
+html {
+	height: 100%;
+	width: 100%;
+}
