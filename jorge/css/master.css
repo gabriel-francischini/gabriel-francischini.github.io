@@ -48,11 +48,3 @@
   	border-collapse: collapse;
   	border-spacing: 0;
   }
-
-/* Definições para TODOS os devices */
-
-/* Importa a Roboto fonte */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-body {
-  font-family: 'Roboto', sans-serif;
-}
