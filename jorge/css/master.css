@@ -4,7 +4,6 @@
      v2.0 | 20110126
      License: none (public domain)
   */
-
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -21,7 +20,7 @@
   	margin: 0;
   	padding: 0;
   	border: 0;
-  	font-size: 100%;
+  	font-size: 16px;
   	font: inherit;
   	vertical-align: baseline;
   }
@@ -50,9 +49,125 @@
   }
 
 /* Definições para TODOS os devices */
+/* Importa as fontes necessárias */
+  @import url('https://fonts.googleapis.com/css?family=Lobster|Roboto');
 
-/* Importa a Roboto fonte */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
   font-family: 'Roboto', sans-serif;
+  width: 100%;
+  background-color: #212121;
+}
+
+/* Reseta style dos links */
+  a:link {
+      text-decoration: none;
+  }
+
+  a:visited {
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  a:active {
+      text-decoration: underline;
+  }
+
+/* Style da navbar */
+nav a {
+  color: #FFFFFF;
+  opacity: 53%;
+}
+nav a:hover{
+  text-decoration: none;
+}
+nav a:active{
+  text-decoration: none;
+}
+
+nav ul {
+  float: none;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: none;
+  text-align: center;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  display: block;
+  text-align: inherit;
+  text-transform: uppercase;
+  opacity: 100%;
+  background-color: #616161;
+  font-family: 'Roboto', sans-serif;
+  border-top: #424242 0.1em solid;
+  border-bottom: #424242 0.1em solid;
+  border-right: #F00000 0 solid;
+  border-left: #000000 0 solid;
+  padding-top: 0.2em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0.1em 0.0em 0.0em 0.0em;
+}
+
+nav li a:hover {
+  background-color: #424242;
+  opacity: 70%;
+}
+
+nav li a:active {
+  background-color: #424242;
+  opacity: 70%;
+}
+
+@media screen and (min-width: 640px){
+
+  nav ul {
+    display: list-item;
+    list-style: none;
+    text-align: center;
+    background: #616161;
+    border-top: #424242 0.1em solid;
+    border-bottom: #424242 0.1em solid;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li a {
+    display: inline-block;
+    height: 100%;
+    border-top: none;
+    border-bottom: none;
+    border-right: #424242 0.1em solid;
+    border-left: #424242 0.1em solid;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+  }
+
+  nav li:first-child a {
+    border-left: 0;
+  }
+
+  nav li:last-child a {
+    border-right: 0;
+  }
 }
