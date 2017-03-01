@@ -175,6 +175,7 @@ section {
   border: #BDBDBD;
   border-radius: 0.4em;
   text-align: center;
+  word-wrap: break-word;
 }
 
 
