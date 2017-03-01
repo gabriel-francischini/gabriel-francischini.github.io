@@ -112,7 +112,6 @@ nav ul {
 }
 
 nav li {
-  font-size: 2em;
   float: none;
   text-align: center;
   display: inline;
@@ -212,6 +211,12 @@ iframe {
   text-indent: 2.3em;
 }
 
+@media screen and (min-width: 20.5em) {
+  nav li {
+    font-size: 2em;
+  }
+}
+
 @media screen and (min-width: 28em){
   header {
     height: 13em;
@@ -234,7 +239,6 @@ iframe {
   }
 
   nav li {
-    font-size: 1em;
     display: inline;
     height: 100%;
     margin: 0 0 0.2em 0;
