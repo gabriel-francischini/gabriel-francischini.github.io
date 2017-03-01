@@ -168,13 +168,12 @@ section {
   border: 0.05em solid #00FF00;
   width: auto;
   max-width: 80em;
-  margin: 0.5em;
-  padding: 1em;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0.5em 0.2em 0.5em 0.2em;
   background-color: #FFFFFF;
   background-image: url('../img/grey_wash_wall.png');
   border: #BDBDBD;
   border-radius: 0.4em;
-  padding: 1em;
   text-align: center;
 }
 
@@ -190,15 +189,22 @@ iframe {
 .mainContent {
   display: inline-block;
   max-width: 70em;
-  height: 100%;
-  min-height: 10em;
-  min-width: 20em;
+  height: auto;
+  min-height: 20em;
+  min-width: 10em;
   border: solid #212121 0.1em;
   border-radius: 0.5em;
   border-radius: 0;
-  padding: 1em 0 1em 0;
-  margin: 0.5em;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0.5em 0.2em 0.5em 0.2em;
   background-image: url('../img/wild_oliva.png');
+  margin: 0;
+}
+
+
+section h2 {
+  font-family: 'Montserrat', serif;
+  margin: 0.5em 0 0.5em 0;
 }
 
 .agendaGrande .agendaPequena {
@@ -215,6 +221,18 @@ iframe {
   nav li {
     font-size: 2em;
   }
+
+  section {
+    padding: 0.5em;
+  }
+
+}
+
+@media screen and (min-width: 24em){
+  .mainContent {
+    margin: 0 1em 0 1em;
+    padding: 0.5em;
+  }
 }
 
 @media screen and (min-width: 28em){
@@ -224,7 +242,7 @@ iframe {
 }
 
 
-@media screen and (min-width: 50em){
+@media screen and (min-width: 54em){
   nav ul {
     display: list-item;
     list-style: none;
@@ -239,6 +257,7 @@ iframe {
   }
 
   nav li {
+    font-size: 1em;
     display: inline;
     height: 100%;
     margin: 0 0 0.2em 0;
@@ -287,6 +306,16 @@ iframe {
 
 }
 
+@media screen and (min-width: 65em){
+  nav li{
+    font-size: 1.3em;
+  }
+
+  .mainContent {
+    height: 100%;
+  }
+}
+
 @media screen and (min-width: 87em){
   header {
     height: 400px;
@@ -294,4 +323,8 @@ iframe {
 }
 
 
-
+@media screen and (min-width: 98em){
+  nav li {
+    font-size: 2em;
+  }
+}
