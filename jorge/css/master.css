@@ -225,6 +225,10 @@ iframe {
   header {
     height: 16em;
   }
+
+  section {
+    min-width: 48em;
+  }
 }
 
 @media screen and (min-width: 87em){
